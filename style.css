@@ -118,6 +118,20 @@ button {
     gap: 1rem;
 }
 
+.grey-link:hover {
+    color: var(--clr-neutral-400);
+}
+
+button:hover {
+    background: var(--clr-neutral-200);
+    cursor: pointer;
+}
+
+.blue-link:hover {
+    text-decoration: none;
+    color: var(--clr-neutral-200);
+}
+
 @media (min-width: 600px) {
 
     body {
